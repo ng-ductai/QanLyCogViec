@@ -1,2 +1,4 @@
-React + Redux 
+React + redux
+
+
 Demo: https://ng-ductai.github.io/QanLyCogViec/
