@@ -2,7 +2,7 @@
   "name": "worklist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "git remote add origin https://ng-ductai.github.io/QanLyCogViec",
+  "homepage": "https://ng-ductai.github.io/QanLyCogViec",
   "dependencies": {
     "@popperjs/core": "^2.9.3",
     "@testing-library/jest-dom": "^5.14.1",
