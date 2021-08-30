@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+
+.mt-15 {
+  margin-top: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mr-5 {
+  margin-right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mr-10 {
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mb-20{
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.mb-30{
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mt-12{
+  margin: 12px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.dropdown-menu .fa:before {
+  padding-right: 10px;
+}
+
+.fa-times{
+ font-size: 40px;
+ color: black;
+}
+
+.text-right {
+  float: right;
+  cursor: pointer;
+}
+
+.text-right:hover {
+  color: red;
+}
+
+.panel-title{
+  color: rgb(21, 255, 0);
+}
+
+.label-danger{
+  color: rgb(253, 37, 37);
+  cursor: pointer;
+}
+
+.label-info{
+  color: rgb(55, 253, 37);
+  cursor: pointer;
+}
+
+.sort_selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
+
+.panel{
+  border-radius: 3px;
+  border: 1px solid rgb(96, 96, 96);
+  padding: 15px;
 }
